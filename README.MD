@@ -11,13 +11,13 @@ Deverá parar a execução de um container
 
 	docker stop CONTAINER_NAME
 	
-	Exemplo: docker stop eproc-php
+	Exemplo: docker stop docker-php
 
 Deve remover os containers da lista de containers do Docker
 
 	docker rm CONTAINER_NAME
 
-	Exemplo: docker rm eproc-php
+	Exemplo: docker rm docker-php
 
 Montará todos os containers
 
@@ -28,7 +28,7 @@ Se necessitar acessar o terminal, -i é o parâmetro para interativo e -t para rod
 
 	docker exec -it CONTAINER_NAME bash
 
-	Exemplo: docker exec -it eproc-php bash
+	Exemplo: docker exec -it docker-php bash
 
 
 Se necessitar visualizar os logs, -f é o parãmetro para seguir (similar ao -t do tail)
